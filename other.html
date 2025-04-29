@@ -1,0 +1,62 @@
+<!-- other-designs.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Other Designs | PrAmOD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1f1f28;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #fbbf24;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 3 / 4;
+      border-radius: 14px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 5px 20px rgba(251, 191, 36, 0.2);
+    }
+    .gallery img:hover {
+      transform: scale(1.04);
+      box-shadow: 0 10px 30px rgba(251, 191, 36, 0.4);
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 3rem;
+      color: #fbbf24;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Other Designs</h1>
+  <div class="gallery">
+    <img src="other1.jpg" alt="Design 1">
+    <img src="other2.jpg" alt="Design 2">
+    <img src="other3.jpg" alt="Design 3">
+    <img src="other4.jpg" alt="Design 4">
+    <img src="other5.jpg" alt="Design 5">
+    <img src="other6.jpg" alt="Design 6">
+    <img src="other7.jpg" alt="Design 7">
+    <img src="other8.jpg" alt="Design 8">
+    <img src="other9.jpg" alt="Design 9">
+    <img src="other10.jpg" alt="Design 10">
+  </div>
+  <a class="back-link" href="index.html">← Back to Home</a>
+</body>
+</html>

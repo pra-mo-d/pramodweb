@@ -1,0 +1,62 @@
+<!-- reel-covers.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reel Covers | PrAmOD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #1f1f28;
+      color: #fff;
+      font-family: 'Montserrat', sans-serif;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      color: #fbbf24;
+      margin-bottom: 2rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      aspect-ratio: 9 / 16;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 5px 20px rgba(251, 191, 36, 0.2);
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 30px rgba(251, 191, 36, 0.4);
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      margin-top: 3rem;
+      color: #fbbf24;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Reel Covers</h1>
+  <div class="gallery">
+    <img src="reel1.jpg" alt="Reel Cover 1">
+    <img src="reel2.jpg" alt="Reel Cover 2">
+    <img src="reel3.jpg" alt="Reel Cover 3">
+    <img src="reel4.jpg" alt="Reel Cover 4">
+    <img src="reel5.jpg" alt="Reel Cover 5">
+    <img src="reel6.jpg" alt="Reel Cover 6">
+    <img src="reel7.jpg" alt="Reel Cover 7">
+    <img src="reel8.jpg" alt="Reel Cover 8">
+    <img src="reel9.jpg" alt="Reel Cover 9">
+    <img src="reel10.jpg" alt="Reel Cover 10">
+  </div>
+  <a class="back-link" href="index.html">← Back to Home</a>
+</body>
+</html>

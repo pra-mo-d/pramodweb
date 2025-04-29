@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrAmOD | Visual Creativity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      background-color: #1f1f28;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 4rem;
+    }
+
+    .logo {
+      color: #fbbf24;
+      font-weight: 900;
+      font-size: 1.5rem;
+    }
+
+    .contact-btn {
+      text-decoration: none;
+      background-color: #fbbf24;
+      color: #1f1f28;
+      padding: 0.5rem 1.2rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 9999px;
+      cursor: pointer;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 2rem 4rem;
+      gap: 2rem;
+    }
+
+    .hero-text {
+      flex: 1 1 400px;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1.2;
+    }
+
+    .hero-text p {
+      margin-top: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    .hero-image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .hero-image img {
+      width: 100%;
+      max-width: 400px;
+      
+    }
+
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      text-decoration: none;
+      background: linear-gradient(to top right, #f59e0b, #fbbf24);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      width: 200px;
+      text-align: center;
+      color: #1f1f28;
+      font-weight: 700;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      height: 150px;
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">PrAmOD</div>
+    <a href="contact.html" class="contact-btn">CONTACT US</a>
+
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Visual Creativity<br>at Its Best</h1>
+      <p>
+        I'm a passionate graphic designer,<br />
+        specializing in creating eye-catching visuals that bring brands to life.<br />
+        With a keen eye for detail and a love for bold, creative design,<br />
+        I craft stunning YouTube thumbnails, reel covers, and social media graphics that captivate audiences.
+      </p>
+    </div>
+    <div class="hero-image">
+      <img src="tutu1.png" alt="Silhouette at window" />
+    </div>
+  </section>
+
+  <section class="services">
+  <a href="thumb.html" class="card">
+    <img src="2222.png" alt="Thumbnails" />
+    <div>THUMBNAILS</div>
+  </a>
+    <a href="reel.html" class="card">
+    <img src="1111.png" alt="Reel Covers" />
+    <div>REEL COVERS</div>
+  </a>
+    <a href="other.html" class="card">
+    <img src="3333.png" alt="Other Designs" />
+    <div>OTHER DESIGNS</div>
+  </a>
+  </section>
+
+  <footer>
+    &copy; 2025 PrAmOD. All rights reserved.
+  </footer>
+</body>
+</html>
